@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+  }
+  
+  
+  body {
+    height: 100px;
+    overflow-x: hidden;
+    background-image: url('https://artofthemovies.co.uk/cdn/shop/products/star-wars-the-rise-of-skywalker_azv75v7f_1024x1024@2x.jpg?v=1648495114');
+  }
+  header {
+    background: aqua;
+    background: linear-gradient(90deg, rgba(24,16,167,1) 8%, aqua 52%,aqua 85%);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    height: 15vh;
+  }
+  header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-right: 30px;
+
+  }
+    
+  header h1:hover {
+    color: rgb(202, 192, 192);
+    transition: all;
+    transition-duration: 0.5s;
+    animation: pulse 0.5s;
+    animation-iteration-count: infinite;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    transition: all;
+    transition-duration: 0.3s;
+    color: rgb(193, 162, 70);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .navbar2 input {
+    padding: 10px;
+    border-radius:20px;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 10px;
+    margin-left: 100px;
+  }
+  
+  .navbar2 img{
+    margin-left: 80px;
+    animation: wheel 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+main div {
+  background-color: grey;
+  width: fit-content;
+  padding: 20px;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+main div button {
+  margin-left: 50px;
+}
+
+form input {
+  margin-bottom: 20px;
+  
+}
+
+.text-1{
+  color: rgba(255, 30, 0, 0.929);
+  border-radius: 40px;
+  background-color: aqua;
+  font-size: medium;
+  font: 200px;
+}
+
+.navbar-footer{
+  margin-top: 300px;
+  background: rgba(255, 255, 255, 0.799);
+  background: linear-gradient(90deg, rgb(250, 1, 1) 8%, rgb(8, 39, 164) 52%, rgb(4, 250, 221) 85%);
+  height: 200px;
+  color: white;
+}
+.box,.box-1,.box-2,.tel,.box-3{
+  justify-content: center;
+  margin-top: 60px;
+  width: 50px;
+  height: 50px;
+  width: fit-content;
+}
+  
